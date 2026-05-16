@@ -47,17 +47,5 @@ The dataset contains customer support messages and corresponding sentiment label
 - `channel`
 - `word_count`
 - `urgent_flag`
-
----
-
-# Project Structure
-
-```text
-part-3-nlp-sequence-modeling/
-│
-├── README.md
-├── notebook.ipynb
-├── requirements.txt
-└── results/
     ├── model_evaluation.png
     └── sample_predictions.txt
