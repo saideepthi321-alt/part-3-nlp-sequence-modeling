@@ -14,7 +14,7 @@ The project uses a customer support dataset containing customer messages labeled
 - neutral
 - negative sentiments
 
-Both traditional machine learning and sequence modeling techniques are implemented and evaluated.
+Both traditional machine learning and sequence-based deep learning approaches are implemented and evaluated for sentiment classification.
 
 # Objectives
 
@@ -101,4 +101,25 @@ The model architecture includes:
 - LSTM recurrent layer
 - Dense output layer
 
-The model is trained for sentiment classification on customer support messages.
+The model demonstrates how sequence-based architectures process textual data while preserving contextual and sequential relationships between words.
+
+# Task 6: Attention and Transformer Reflection
+
+This section discusses:
+- limitations of traditional RNNs
+- how LSTMs improve memory handling
+- the role of attention mechanisms
+- the importance of transformers in modern NLP and Generative AI
+
+The discussion explains how transformer-based architectures enable advanced language understanding and text generation in modern AI systems such as GPT and BERT.
+
+# Results
+
+The baseline Logistic Regression model using TF-IDF vectorization achieved strong classification performance on the dataset.
+
+The LSTM sequence model demonstrated the concept of sequence learning and contextual text processing, though performance was limited due to:
+- small dataset size
+- limited training epochs
+- simple model architecture
+
+The project successfully demonstrates both traditional NLP workflows and sequence-based deep learning approaches for sentiment classification.
